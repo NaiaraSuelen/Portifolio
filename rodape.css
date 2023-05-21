@@ -24,3 +24,15 @@ footer .texto-rodape {
     font-size: 100%;
     margin-left: 80%;
 }
+
+@media (max-width: 500px) {
+    footer img{
+        width: 50%;
+        height: 30px;
+    }
+
+    footer .texto-rodape {
+        font-size: 60%;
+        margin-left: 60%;
+    }
+}
