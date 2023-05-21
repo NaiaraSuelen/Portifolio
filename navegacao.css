@@ -1,0 +1,37 @@
+.navegacao {
+    font-size: 150%;
+    width: 100%;
+    top: 0; 
+    left: 0; 
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.10); 
+    backdrop-filter: blur(10px); 
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;    
+    z-index: 9999;
+}
+
+.navegacao ul {
+    float: right; 
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.navegacao li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.navegacao a:hover{
+    color: rgb(255, 204, 66);
+}
+
+.logo{
+    display: inline-block;
+    padding: 1%;
+    margin-left: 10%;
+}
+
+.logo img{
+    width: 70%;
+}
